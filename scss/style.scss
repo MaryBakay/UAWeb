@@ -1,4 +1,4 @@
-body, ul, p{
+body, ul, p, h1{
 	margin: 0;
 	padding: 0;
 	font-size: 13px;
@@ -20,6 +20,8 @@ body{
 	display: block;
 	clear: both;
 }
+/*----------------------------------*/
+
 /*------------------------------------*/
 @mixin transition ($transition: all 1s ease 0s) {
     -ms-transition:$transition; // IE10+
@@ -487,7 +489,7 @@ ul.sub-menu>li>a:hover .sub-menu-product-line ~ span{
 			width:7px;
 			background:#bbbbbb;
 			@include border-radius(50%);
-			
+
 			&.active{
 				background:#ff4700;
 			}
@@ -500,9 +502,86 @@ ul.sub-menu>li>a:hover .sub-menu-product-line ~ span{
 /*--------------------------------------------*/
 .content{
 	margin-top:50px;
+
 	.content-header{
 		height:60px;
 		background: #fff;
-		
+
+		.content-header-main{
+			position:relative;
+			background:#eb4200;
+			display:inline-block;
+			.fa-gift{
+				width:32px;
+				height:32px;
+				background:#fff;
+				@include border-radius(50%);
+				color:#eb4200;
+				font-size:1.2308em;
+				margin:0 45px;
+				position:relative;
+				top:-7px;
+
+				&:before{
+					position:relative;
+					top:8px;
+					left:9px;
+				}
+			}
+
+			h1{
+				font-size:1.0769em;
+				color:#fff;
+				text-transform:uppercase;
+				display:inline-block;
+				padding:21px 75px 21px 0;
+
+				&:after{
+					content:"";
+					display:block;
+					position:absolute;
+					width:0;
+					height:0;
+					border-top:30px solid #eb4200;
+					border-left:10px solid #eb4200;
+					border-right:10px solid transparent;
+					border-bottom:30px solid transparent;
+					right:-20px;
+					top:0;
+				}
+			}
+		}
+		span{
+			margin-left:95px;
+		}
 	}
+	.content-text{
+		margin-top:30px;
+		.column{
+			width:45%;
+			p.head{
+				color:#444444;
+				margin:30px 0 12px;
+			}
+			p{
+				color:#999999;
+				line-height:19px;
+
+				a{
+					color:#ff4700;
+					text-decoration:none;
+				}
+			}
+			&.column_1{
+				float:left;
+			}
+			&.column_2{
+				float:right;
+			}
+		}
+	}
+}
+.footer{
+	max-height:108px;
+	background:#939494;
 }

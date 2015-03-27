@@ -1,5 +1,5 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\000031}}
-body, ul, p {
+body, ul, p, h1 {
   margin: 0;
   padding: 0;
   font-size: 13px;
@@ -28,40 +28,41 @@ body {
   clear: both;
 }
 
+/*----------------------------------*/
 /*------------------------------------*/
 /*----------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\0000375}}
 header {
   z-index: 1;
   background: #fff;
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\0000382}}
 .top-menu {
   max-height: 72px;
   width: 100%;
   background: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\0000388}}
 a.logo {
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\0000392}}
 ul.top-menu-list {
   list-style: none;
   margin-left: 97px;
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\0000397}}
 ul.top-menu-list > li {
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003102}}
 ul.top-menu-list > li > a {
   color: #333333;
   text-decoration: none;
@@ -70,54 +71,54 @@ ul.top-menu-list > li > a {
   padding: 26px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003112}}
 ul.top-menu-list > li:hover a {
   background: #8c8d8d;
   color: #fff;
   border-bottom: 3px solid #8c8d8d;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003118}}
 .top-menu-list-open-sub ul.sub-menu {
   margin-left: -14px;
   list-style: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003122}}
 .lang {
   list-style: none;
   float: right;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003127}}
 .lang .lang-open {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003131}}
 .lang .lang-open:hover {
   border-left: 1px solid #8c8d8d;
   border-right: 1px solid #8c8d8d;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003134}}
 .lang .lang-open:hover a {
   background: #8c8d8d;
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003138}}
 .lang .lang-open:hover a:after {
   background-position: 0px -7px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003142}}
 .lang .lang-open:hover .lang {
   border-left: 1px solid #8c8d8d;
   border-right: 1px solid #8c8d8d;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003146}}
 .lang .lang-open:hover .lang-sub {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003151}}
 .lang a {
   text-decoration: none;
   color: #999;
@@ -125,7 +126,7 @@ ul.top-menu-list > li:hover a {
   display: block;
   padding: 27px 27px 28px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003161}}
 .lang .lang-sub {
   list-style: none;
   position: absolute;
@@ -134,12 +135,12 @@ ul.top-menu-list > li:hover a {
   left: 0;
   right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003169}}
 .lang .lang-sub a {
   padding: 0px 27px 31px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003172}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003174}}
 .lang-open > a:after {
   content: "";
   display: block;
@@ -151,7 +152,7 @@ ul.top-menu-list > li:hover a {
   left: 70%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003187}}
 ul.sub-menu > li {
   display: inline-block;
   text-align: center;
@@ -161,12 +162,12 @@ ul.sub-menu > li {
   word-wrap: break-word;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003195}}
 ul.sub-menu li:last-child {
   margin-right: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003198}}
 ul.sub-menu > li > a {
   color: #fff;
   text-decoration: none;
@@ -174,7 +175,7 @@ ul.sub-menu > li > a {
   font-size: 1.0769em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003202}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003204}}
 ul.sub-menu > li > a:hover .product-back {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity)";
   filter: alpha(opacity=1);
@@ -188,7 +189,7 @@ ul.sub-menu > li > a:hover .product-back {
   transition: all 1s ease 0s;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003209}}
 ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   -ms-transform: translateY(-70px);
   -o-transform: translateY(-70px);
@@ -202,7 +203,7 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   transition: all 1s ease 0s;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003213}}
 .sub-menu-product-line ~ span {
   -ms-transform: translateY(0px);
   -o-transform: translateY(0px);
@@ -218,7 +219,7 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   transition: all 1s ease 0s;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003219}}
 .sub-menu-product-line {
   width: 117px;
   height: 117px;
@@ -228,7 +229,7 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   line-height: 11;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003227}}
 .sub-menu-container {
   background: #8c8d8d;
   width: 100%;
@@ -247,12 +248,12 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   transition: all 1s ease 0s;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003241}}
 .top-menu-list li.top-menu-list-open-sub:hover a {
   background: #8c8d8d;
   border-bottom: 3px solid transparent;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003245}}
 .top-menu-list li.top-menu-list-open-sub:hover .sub-menu-container {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity)";
   filter: alpha(opacity=1);
@@ -266,13 +267,13 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   -webkit-transition: all 1s ease 0s;
   transition: all 1s ease 0s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003251}}
 .top-menu-list a.active {
   border-bottom: 3px solid #ff4700;
   color: #ff4700;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003257}}
 .product-back {
   background: rgba(0, 0, 0, 0.8);
   height: 100%;
@@ -291,7 +292,7 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
 }
 
 /*----------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003264}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003266}}
 .banner {
   background: url("../img/banner_foto_large.png") no-repeat center center;
   max-height: 522px;
@@ -301,7 +302,7 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   padding-bottom: 250px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003272}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003274}}
 .banner:before {
   content: "";
   display: block;
@@ -315,7 +316,7 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   position: absolute;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003280}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003282}}
 .banner:after {
   content: "";
   display: block;
@@ -332,7 +333,7 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   position: absolute;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003288}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003290}}
 .banner-text {
   background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
@@ -340,7 +341,7 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003294}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003296}}
 .banner-text.text1 {
   font-size: 2.7692em;
   font-weight: bold;
@@ -348,13 +349,13 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   margin-top: 115px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003300}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003302}}
 .banner-text.text2 {
   font-size: 1.8462em;
   margin-top: 3px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003304}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003306}}
 .banner-button {
   background: #000;
   border-radius: 5px;
@@ -364,7 +365,7 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003314}}
 .banner-button a {
   color: #fff;
   font-size: 1.0769em;
@@ -374,7 +375,7 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   padding: 13px 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003322}}
 .banner-button a:before {
   content: "";
   background: url("../img/banner_button.png") no-repeat;
@@ -384,7 +385,7 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   position: absolute;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003331}}
 .banner-list {
   margin-top: -130px;
   position: absolute;
@@ -392,14 +393,14 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003337}}
 .banner-list-header {
   position: relative;
   text-transform: uppercase;
   color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003344}}
 .banner-list-header span:after,
 .banner-list-header span:before {
   content: "";
@@ -411,12 +412,12 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   top: 9px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003353}}
 .banner-list-header span:before {
   right: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003356}}
 .banner-list-products {
   list-style: none;
   width: 100%;
@@ -424,12 +425,12 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   max-height: 50px;
   margin-top: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003364}}
 .banner-list-products li {
   display: inline-block;
   width: 16.6669%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003368}}
 .banner-list-products li a {
   text-transform: uppercase;
   color: #000;
@@ -438,12 +439,12 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   padding: 17px 0;
   border-right: 1px solid #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003376}}
 .banner-list-products li li:last-child {
   border: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003381}}
 .banner-item {
   float: left;
   margin-right: 1.315%;
@@ -455,19 +456,19 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   text-align: center;
   font-size: 1.0769em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003392}}
 .banner-item p {
   color: #fff;
   position: relative;
   top: 200px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003398}}
 .banner-item p:first-of-type {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.3846em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003401}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003403}}
 .banner-item .back-p-gradient {
   background: rgba(0, 0, 0, 0);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#B3000000',GradientType=0 );
@@ -479,27 +480,27 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
   height: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003405}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003407}}
 .banner-item.calculate {
   background: url("../img/calc_banner.png") no-repeat;
   background-size: cover;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003409}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003411}}
 .banner-item.config {
   background: url("../img/konf.png") no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003412}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003414}}
 .banner-item:last-child {
   margin-right: 0;
 }
 
 /*-----Slider----*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003420}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003422}}
 .slider {
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003423}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003425}}
 .slider-content {
   width: 1480px;
   overflow: hidden;
@@ -510,41 +511,41 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   transition: all 1s ease 0s;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003429}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003431}}
 .slider-content-item {
   display: inline-block;
   width: 370px;
   height: 250px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003434}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003436}}
 #slider-item-1 {
   background: url("../img/slider_item_1.png") no-repeat;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003437}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003439}}
 #slider-item-2 {
   background: url("../img/slider_item_2.png") no-repeat;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003440}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003442}}
 #slider-item-3 {
   background: url("../img/slider_item_3.png") no-repeat;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003443}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003445}}
 #slider-item-4 {
   background: url("../img/slider_item_4.png") no-repeat;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003446}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003448}}
 .slider-label {
   background: #eb4200;
   position: absolute;
   top: 30px;
   left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003452}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003454}}
 .slider-label span {
   position: relative;
   padding: 9px 15px;
@@ -553,7 +554,7 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   color: #fff;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003460}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003462}}
 .slider-label span:after {
   content: "";
   display: block;
@@ -568,16 +569,16 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   right: -20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003476}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003478}}
 .slider-nav {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003480}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003482}}
 .switchers li {
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003483}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003485}}
 .switchers li a {
   display: block;
   margin-right: 7px;
@@ -588,23 +589,112 @@ ul.sub-menu > li > a:hover .sub-menu-product-line ~ span {
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003491}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003493}}
 .switchers li a.active {
   background: #ff4700;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003497}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003499}}
 .switchers a:hover {
   background: #ff4700;
 }
 
 /*--------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003501}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003503}}
 .content {
   margin-top: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003503}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003506}}
 .content .content-header {
   height: 60px;
   background: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003510}}
+.content .content-header .content-header-main {
+  position: relative;
+  background: #eb4200;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003514}}
+.content .content-header .content-header-main .fa-gift {
+  width: 32px;
+  height: 32px;
+  background: #fff;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  color: #eb4200;
+  font-size: 1.2308em;
+  margin: 0 45px;
+  position: relative;
+  top: -7px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003525}}
+.content .content-header .content-header-main .fa-gift:before {
+  position: relative;
+  top: 8px;
+  left: 9px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003532}}
+.content .content-header .content-header-main h1 {
+  font-size: 1.0769em;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 21px 75px 21px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003539}}
+.content .content-header .content-header-main h1:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 30px solid #eb4200;
+  border-left: 10px solid #eb4200;
+  border-right: 10px solid transparent;
+  border-bottom: 30px solid transparent;
+  right: -20px;
+  top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003554}}
+.content .content-header span {
+  margin-left: 95px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003558}}
+.content .content-text {
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003560}}
+.content .content-text .column {
+  width: 45%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003562}}
+.content .content-text .column p.head {
+  color: #444444;
+  margin: 30px 0 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003566}}
+.content .content-text .column p {
+  color: #999999;
+  line-height: 19px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003570}}
+.content .content-text .column p a {
+  color: #ff4700;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003575}}
+.content .content-text .column.column_1 {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003578}}
+.content .content-text .column.column_2 {
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Anton\/Desktop\/WebChallenge\/scss\/style\.scss}line{font-family:\00003584}}
+.footer {
+  max-height: 108px;
+  background: #939494;
 }

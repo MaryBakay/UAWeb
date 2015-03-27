@@ -204,11 +204,32 @@
 		<div class="content">
 			<div class="wrapper">
 				<div class="content-header">
+					<div class="content-header-main">
+						<i class="fa fa-gift"></i>
+						<h1>PRO-VARIO-R a PRO-VARIO-Z výhodněji!</h1>
+					</div>
+					<span>Barvy rolet a žaluzií do překladu VARIO… ZDARMA!</span>
 				</div>
-				<div class="content-text">
+				<div class="content-text clearfix">
+					<div class="column column_1">
+						<p class="head">Rolety</p>
+						<p>Možná přemýšlíte nad různými nabídkami na předokenní rolety od různých výrobců a prodejců a nemůžete se rozhodnout. Zkusíme Vám v tom trochu pomoci.</p>
+						<p class="head">Jak vybírat rolety?</p>
+						<p>Na trhu v ČR je několik výrobců rolet a několik desítek, možná i stovek prodejců stínící a roletové techniky. Říkáte si, je třeba kupovat rolety výhradně přímo u výrobce? Myslíme, že určitě ne. Naopak řada obchodních a montážních firem, která prodává (a nevyrábí) předokenní rolety a také další stínící techniku to dělá na prvotřídní, profesionální úrovni, dokonce jsou leckdy tyto služby komplexnější a díky působení v regionu i rychlejší a levnější, než dodávka od 100 a více km vzdáleného výrobce, který by za Vámi cestoval s montážní partou.</p>
+					</div>
+					<div class="column column_2">
+						<p class="head">Pro jaké rolety se tedy rozhodnout?</p>
+						<p>Dodavatele pro rolety vybírejte nejlépe v regionu, kde se nachází Váš dům nebo byt. Seznam regionů, ve kterých najdete nejbližšího autorizovaného prodejce rolet PROALU, roztříděných podle krajů a měst ČR, naleznete na straně <a href="#" title="Spočítejte si cenu">Spočítejte si cenu</a> a <a href="#" title="Kontakt">Kontakt</a>.</p>
+						<p class="head">A co je výsledkem?</p>
+						<p>Kvalitní předokenní rolety „made by PROALU“, jsou přesně ty rolety, co jste si vybrali - profesionálně zaměřené, dodané a namontované autorizovaným prodejcem z Vašeho regionu. Prodejce je schopen zajistit díky své regionální působnosti na rolety rychlý záruční nebo pozáruční servis. Bonusem navíc je jistota, že veškeré dopravní náklady spojené např. s pozáručním servisem jsou opravdu minimální.</p>
+					</div>
 				</div>
 			</div>
 		</div>
+		<footer>
+			<div class="wrapper">
+			</div>
+		</footer>
 		
 		<!-- Script for Contact Us-->
 	<script>
@@ -259,21 +280,22 @@
 			//automatic scrolling
 			
 				function sliderInWork(){
-					//$('.switchers a').removeClass('active');
-					//$('#first-slide').addClass('active');
+				
 					if (margin != -1110){
 						margin += -370;
 						slider.css('margin-left', margin);
 					} else {
 						margin=0;
 						slider.css('margin-left', margin);
-						$('#first-slide').addClass('active')
+						
 					}
 
-					switch(true){
+					/*switch(true){
 						case (margin=0):
 							$('.switchers a').removeClass('active');
 							$('#first-slide').addClass('active');
+							margin += -370;
+							slider.css('margin-left', margin);
 							break;
 						case (margin=-370):
 							$('.switchers a').removeClass('active');
@@ -287,7 +309,7 @@
 							$('.switchers a').removeClass('active');
 							$('#fourth-slide').addClass('active')
 							break;
-					}
+					}*/
 
 				};
 				var intervalID = setInterval(sliderInWork, 5000);
