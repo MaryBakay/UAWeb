@@ -1,0 +1,22 @@
+body, ul, p, h1{
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	font-family: Tahoma, sans-serif;
+}
+body{
+	background:#f3f3f3;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 1140px;
+
+	&.container{
+		position:relative;
+	}
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
